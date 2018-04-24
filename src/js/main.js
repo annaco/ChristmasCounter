@@ -18,10 +18,10 @@ function counter() {
     var minutes = seconds/60;
     var hours = minutes/60;
 
-    //Antal dagar kavr
+    //Antal dagar kvar
     var days = Math.floor(hours/24);
 
-    //Antal timmar kavr
+    //Antal timmar kvar
     var hours_left =  hours - (days*24);
     var hoursToChrismas =Math.floor(hours_left); 
 
